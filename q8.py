@@ -14,6 +14,6 @@ def print_three_letter_words():
         for j in range (len(starting_letters)):
             for k in range (len(middle_letters)):
                 for l in range (len(ending_letters)):
-                    print(starting_letters[j]+middle_letters[k]+ending_letters[j])
+                    print(starting_letters[j]+middle_letters[k]+ending_letters[l])
                     print(" ")
 print_three_letter_words()
